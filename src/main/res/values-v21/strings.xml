@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="detalhes_por">POR </string>
+    <string name="detalhes_oglobo">O GLOBO</string>
+    <string name="ac_share">Compartilhar</string>
+    <string name="ac_continue">Continuar</string>
+    <string name="ac_stay">Ficar</string>
+    <string name="dialog_externo">Você está prestes a abrir um link externo, deseja continuar?</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="TextHeaderTitulo">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/spacing_normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bottom_title_image</item>
+    </style>
+
+    <style name="TextHeaderSecaoNome">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/spacing_tiny</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextListRowTitulo">
+        <item name="android:lines">2</item>
+        <item name="android:gravity">fill_vertical</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextListRowSecaoNome">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/blue_light</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextDetalhesTitulo">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/spacing_normal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextDetalhesSubTitulo">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:padding">@dimen/spacing_tiny</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextDetalhesAutores">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextDetalhesAutoresPor">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextDetalhesPublicadoEm">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextDetalhesImagemLegenda">
+        <item name="android:textSize">@dimen/font_tiny</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bottom_title_image</item>
+        <item name="android:padding">@dimen/spacing_tiny</item>
+    </style>
+
+    <style name="TextDetalhesTexto">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:padding">@dimen/spacing_normal</item>
+    </style>
+
+    <style name="TextActionBar">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>

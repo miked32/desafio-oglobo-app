@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true">
+
+    <ImageView
+        android:id="@+id/action_bar_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/zero_spacing"
+        android:paddingStart="@dimen/zero_spacing"
+        android:paddingRight="@dimen/toolbar_horizontal_spacing"
+        android:paddingEnd="@dimen/toolbar_horizontal_spacing"
+        android:src="@drawable/oglobo" />
+
+</RelativeLayout>

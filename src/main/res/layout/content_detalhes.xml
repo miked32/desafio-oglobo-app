@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.DetalhesActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_titulo_detalhes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextDetalhesTitulo"
+        />
+
+    <TextView
+        android:id="@+id/tv_subtitulo_detalhes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_titulo_detalhes"
+        style="@style/TextDetalhesSubTitulo"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_autores_detalhes"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_subtitulo_detalhes"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:text="@string/detalhes_por"
+            android:id="@+id/tv_autorespor_detalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextDetalhesAutoresPor"
+            />
+
+        <TextView
+            android:text="@string/detalhes_oglobo"
+            android:id="@+id/tv_autores_detalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_tiny"
+            style="@style/TextDetalhesAutores"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_publicadoem_detalhes"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_autores_detalhes"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/iv_publicadoem"
+            android:layout_width="@dimen/font_tiny"
+            android:layout_height="@dimen/font_tiny"
+            android:src="@drawable/ic_schedule"
+            />
+
+        <TextView
+            android:id="@+id/tv_publicadoem_detalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextDetalhesPublicadoEm"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_imagem_detalhes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_width_huge"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:layout_below="@id/ll_publicadoem_detalhes">
+
+        <ImageView
+            android:id="@+id/iv_detalhes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/tv_legenda_imagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            style="@style/TextDetalhesImagemLegenda"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_texto_detalhes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_imagem_detalhes"
+        android:layout_marginTop="@dimen/spacing_normal"
+        style="@style/TextDetalhesTexto"/>
+
+</RelativeLayout>
+
+
+
+</ScrollView>
